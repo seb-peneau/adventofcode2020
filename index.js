@@ -35,3 +35,10 @@ const day5part2 = require("./days/day5").day5part2
 const inputDay5 = require("./inputs/day5").input5
 console.log("day 5 : ", day5(inputDay5))
 console.log("day 5 part 2 : ", day5part2(inputDay5))
+
+// day 6
+const day6 = require("./days/day6").day6
+const day6part2 = require("./days/day6").day6part2
+const inputDay6 = require("./inputs/day6").input6
+console.log("day 6 : ", day6(inputDay6))
+console.log("day 6 part 2 : ", day6part2(inputDay6))
