@@ -42,3 +42,19 @@ const day6part2 = require("./days/day6").day6part2
 const inputDay6 = require("./inputs/day6").input6
 console.log("day 6 : ", day6(inputDay6))
 console.log("day 6 part 2 : ", day6part2(inputDay6))
+
+// day 7
+const day7 = require("./days/day7").day7
+const day7part2 = require("./days/day7").day7part2
+const inputDay7 = require("./inputs/day7").input7
+console.log("day 7 : ", day7(inputDay7, "shiny gold"))
+console.log("day 7 part 2: ", day7part2(inputDay7, "shiny gold"))
+
+//day 9
+const day9 = require("./days/day9").day9
+const day9part2 = require("./days/day9").day9part2
+const input = require("./inputs/day9").input9
+let search = day9(input, 25)
+console.log("day 9 : ", search)
+const s = day9part2(input, search)
+console.log("day 9 part 2 : ", s[0] + s[s.length-1])
